@@ -1,0 +1,10 @@
+//Start Chromium
+chromium-browser --no-sandbox
+
+
+//Start tensorboard Server
+workspace/labor5/logs
+tensorboard --logdir ./
+
+//website aufrufen
+localhost:6006
